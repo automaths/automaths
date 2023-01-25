@@ -1,6 +1,6 @@
 ![automaths](./automaths.gif)
 
-<img src="https://github-readme-stats.vercel.app/api?username=automaths&show_icons=true&theme=radical&?count_private=true&include_all_commits=true&hide_border=true" length="100" width="350">
+<img src="https://github-readme-stats-olive-nine.vercel.app/api?username=automaths&show_icons=true&theme=radical&?count_private=true&include_all_commits=true&hide_border=true" length="100" width="350">
 <!-- <img src="https://github-readme-stats-olive-nine.vercel.app/api/top-langs/?username=automaths&hide_border=truehide_title=true&layout=compact&theme=radical" alt="automaths" /> -->
 <p align='center'>
   <a href="https://github.com/automaths/automaths">
