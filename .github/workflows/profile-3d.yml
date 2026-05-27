@@ -13,7 +13,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PAT perso (scopes repo + read:user) pour inclure les contributions privées.
+          # Fallback sur le token par défaut si le secret n'est pas (encore) défini.
+          GITHUB_TOKEN: ${{ secrets.GH_PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
